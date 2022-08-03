@@ -7,7 +7,7 @@
 * [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
 * [Filing Expenses](the-formal-stuff/filing-expenses.md)
 
-## 🥽 Система <a href="#system" id="system"></a>
+## 🥽 DJI FPV System <a href="#system" id="system"></a>
 
 * [Очки](the-company/vision-and-values.md)
 * [Передатчики](the-company/meet-the-team.md)

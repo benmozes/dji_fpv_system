@@ -1,7 +1,7 @@
 ---
 description: коллективная база знаний
-cover: .gitbook/assets/dji-fpv.jpg
-coverY: 206.76923076923075
+cover: .gitbook/assets/3a96e041be23b65becd31d15e892b8bf.png
+coverY: -808.6153846153846
 ---
 
 # 🗂 DJI Digital FPV System
