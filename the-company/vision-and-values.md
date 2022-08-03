@@ -4,7 +4,7 @@ cover: >-
 coverY: 0
 ---
 
-# Vision and Values
+# Очки
 
 ## Our Vision
 

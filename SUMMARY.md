@@ -4,11 +4,11 @@
 
 ## F.A.Q.
 
-* [Requesting Time Off](f.a.q./requesting-time-off.md)
-* [Filing Expenses](f.a.q./filing-expenses.md)
+* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
+* [Filing Expenses](the-formal-stuff/filing-expenses.md)
 
 ## 🥽 Система <a href="#system" id="system"></a>
 
-* [Очки](system/goggles.md)
-* [Передатчики](system/vtx.md)
+* [Очки](the-company/vision-and-values.md)
+* [Передатчики](the-company/meet-the-team.md)
 * [Камеры](system/cameras.md)
