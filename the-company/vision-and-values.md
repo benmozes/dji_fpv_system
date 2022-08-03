@@ -1,6 +1,7 @@
 ---
 cover: ../.gitbook/assets/dji-fpv.jpg
 coverY: 205.29230769230767
+layout: editorial
 ---
 
 # Очки
