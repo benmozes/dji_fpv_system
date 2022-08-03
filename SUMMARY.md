@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [🗂 DJI Digital FPV System](README.md)
 
 ## The Company
 
