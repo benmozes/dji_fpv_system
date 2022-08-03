@@ -2,12 +2,13 @@
 
 * [🗂 DJI Digital FPV System](README.md)
 
-## The Company
+## F.A.Q.
 
-* [Vision and Values](the-company/vision-and-values.md)
-* [Meet the Team!](the-company/meet-the-team.md)
+* [Requesting Time Off](f.a.q./requesting-time-off.md)
+* [Filing Expenses](f.a.q./filing-expenses.md)
 
-## The Formal Stuff
+## 🥽 Система <a href="#system" id="system"></a>
 
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
+* [Очки](system/goggles.md)
+* [Передатчики](system/vtx.md)
+* [Камеры](system/cameras.md)
