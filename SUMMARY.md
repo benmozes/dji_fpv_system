@@ -4,8 +4,7 @@
 
 ## F.A.Q.
 
-* [Requesting Time Off](the-formal-stuff/requesting-time-off.md)
-* [Filing Expenses](the-formal-stuff/filing-expenses.md)
+* [Page 1](f.a.q./page-1.md)
 
 ## 🥽 DJI FPV System <a href="#system" id="system"></a>
 
