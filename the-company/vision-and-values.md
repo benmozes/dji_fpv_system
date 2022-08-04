@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/dji-fpv.jpg
-coverY: 0
+coverY: 207.56756756756755
 layout: editorial
 ---
 
