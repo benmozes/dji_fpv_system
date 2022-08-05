@@ -6,7 +6,18 @@
 Все камеры совместимы с передатчиками Air Unit и Caddx Vista (Runcam Link)
 {% endhint %}
 
-### Полноценные камеры:
+Если нужно что-то из списка ниже:
+
+1. 1080p
+2. 60/120 фпс
+3. 16:9/4:3
+4. настройки камеры из очков
+   1. баланс белого
+   2. поворот картинки
+
+
+
+### Основные камеры:
 
 {% hint style="success" %}
 1080p
@@ -37,3 +48,29 @@
 #### Runcam Falcon nano
 
 ![Runcam Falcon nano](../.gitbook/assets/RunCam\_falcon\_nano\_2\_1000\_\_97268.jpg)
+
+### Камеры для целевых условий:
+
+{% hint style="warning" %}
+Для полётов при недостаточном освещении (сумерки, темные помещения)
+
+720p
+
+60 фпс
+
+16:9
+
+настройки из очков недоступны
+{% endhint %}
+
+#### Caddx Polar Starlight&#x20;
+
+![Caddx Polar Starlight](../.gitbook/assets/2\_9f23d65d-e0f5-4cf1-acc8-8531150794b2\_1500x.jpg)
+
+#### Caddx Polar Nano Starlight
+
+![Caddx Polar Nano Starlight](../.gitbook/assets/polarnano1\_1500x.jpg)
+
+#### Foxeer Apollo
+
+![Foxeer Apollo](../.gitbook/assets/16-55-06-618cda6a92f60.images.800x800.jpg)
