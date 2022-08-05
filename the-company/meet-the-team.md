@@ -25,6 +25,10 @@ coverY: 102.46153846153847
 передатчик делает DJI. Cadxx и Runcam просто упаковывают их в свои коробки, поэтому никакой разницы между передатчиками нет и не может быть.
 {% endhint %}
 
+{% hint style="danger" %}
+На Caddx Vista (Runcam Link) из коробки пины GND и BAT со следами пайки, **это нормально**
+{% endhint %}
+
 ### Характеристики
 
 |                      |       DJI FPV Air Unit | Caddx Vista (Runcam Link) |
