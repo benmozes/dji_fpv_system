@@ -4,8 +4,8 @@
 
 ## 🥽 DJI FPV System <a href="#system" id="system"></a>
 
-* [Очки](the-company/vision-and-values.md)
-* [Передатчики](the-company/meet-the-team.md)
+* [Очки](system/goggles.md)
+* [Передатчики](system/vtx.md)
 * [Камеры](system/cameras.md)
 
 ## F.A.Q.
