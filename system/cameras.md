@@ -1,33 +1,52 @@
 # Камеры
 
-### TL:DR
-
 {% hint style="info" %}
 Все камеры совместимы с передатчиками Air Unit и Caddx Vista (Runcam Link)
 {% endhint %}
 
-Если нужно что-то из списка ниже:
+## Основные
+
+Камеры с наиболее широким спектром возможностей и настроек
 
 1. 1080p
 2. 60/120 фпс
 3. 16:9/4:3
 4. настройки камеры из очков
-   1. баланс белого
-   2. поворот картинки
 
+[DJI Camera](cameras.md#dji-camera)
 
+[Caddx Nebula pro](cameras.md#caddx-nebula-pro)
 
-### Основные камеры:
+[Caddx Nebula nano pro](cameras.md#caddx-nebula-nano-pro) (для мелких вупов)
 
-{% hint style="success" %}
-1080p
+[Caddx Air Unit Micro camera](cameras.md#caddx-air-unit-micro-camera)
 
-60/120 фпс
+[Runcam Falcon nano](cameras.md#runcam-falcon-nano)
 
-16:9/4:3
+## Дополнительные
 
-доступны все настройки
+Камеры для полётов при недостатке освещения:
+
+* 720p
+* 60 фпс
+* 16:9
+* нет функции настройки камеры из очков
+
+[Caddx Polar Starlight](cameras.md#caddx-polar-starlight)
+
+[Caddx Polar Nano Starlight](cameras.md#caddx-polar-nano-starlight)
+
+[Foxeer Apollo](cameras.md#foxeer-apollo)
+
+## Split камера
+
+{% hint style="info" %}
+Подключается к передатчику, может писать на себя до 2.7к с гироданными
 {% endhint %}
+
+[RunCam Split HD](cameras.md#runcam-split-hd)
+
+## Подробно
 
 #### DJI Camera
 
@@ -49,28 +68,18 @@
 
 ![Runcam Falcon nano](../.gitbook/assets/RunCam\_falcon\_nano\_2\_1000\_\_97268.jpg)
 
-### Камеры для целевых условий:
-
-{% hint style="warning" %}
-Для полётов при недостаточном освещении (сумерки, темные помещения)
-
-720p
-
-60 фпс
-
-16:9
-
-настройки из очков недоступны
-{% endhint %}
-
 #### Caddx Polar Starlight&#x20;
 
 ![Caddx Polar Starlight](../.gitbook/assets/2\_9f23d65d-e0f5-4cf1-acc8-8531150794b2\_1500x.jpg)
 
 #### Caddx Polar Nano Starlight
 
-![Caddx Polar Nano Starlight](../.gitbook/assets/polarnano1\_1500x.jpg)
+![Caddx Polar Nano Starlight](<../.gitbook/assets/polarnano1\_1500x (1).jpg>)
 
 #### Foxeer Apollo
 
 ![Foxeer Apollo](../.gitbook/assets/16-55-06-618cda6a92f60.images.800x800.jpg)
+
+#### RunCam Split HD
+
+![RunCam Split HD](../.gitbook/assets/SPHD-WEBEN-1000-3\_\_16281.jpg)
