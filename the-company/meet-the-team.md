@@ -6,42 +6,36 @@ coverY: 0
 
 # Передатчики
 
-{% hint style="info" %}
-**Good to know:** an employee directory can be a great way to help new folks get familiar with everyone they're going to be working with.
-{% endhint %}
+### TL;DR
 
-## Esme DeWalt
+#### Air Unit:
 
-👋 CEO — 💌 esme@company.com — 🇺🇸 San Francisco (GMT-7)
+* пишет на себя картинку 1080 со звуком
+* две антенны
+* большой, нужно брать рамы для HD
+* питание только до 17.6v
 
-![](https://images.unsplash.com/photo-1571442463800-1337d7af9d2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=2973\&q=80)
+#### Caddx Vista (Runcam Link):
 
-### Bio
-
-{% hint style="info" %}
-**Good to know:** Encourage employees to write a succinct bio that can help new hires learn about them and how they like to work.
-{% endhint %}
-
-## Rima Paterson
-
-👋 CTO — 💌 rima@company.com — 🇳🇱 Amsterdam (GMT+1)
-
-![](https://images.unsplash.com/photo-1502764613149-7f1d229e230f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=2972\&q=80)
-
-### Bio
+* не пишет на себя вообще
+* одна антенна
+* маленькая, лезет почти в любую раму
+* питание до 26.4v
 
 {% hint style="info" %}
-**Good to know:** Encourage employees to write a succinct bio that can help new hires learn about them and how they like to work.
+передатчик делает DJI. Cadxx и Runcam просто упаковывают их в свои коробки, поэтому никакой разницы между передатчиками нет и не может быть.
 {% endhint %}
 
-## Stefan Barr
+### Характеристики
 
-👋 Head of Product — 💌 stefan@company.com — 🇫🇷 Marseille (GMT+1)
-
-![](https://images.unsplash.com/photo-1601935111741-ae98b2b230b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&ixlib=rb-1.2.1\&auto=format\&fit=crop\&w=2970\&q=80)
-
-### Bio
-
-{% hint style="info" %}
-**Good to know:** Encourage employees to write a succinct bio that can help new hires learn about them and how they like to work.
-{% endhint %}
+|                      |       DJI FPV Air Unit | Caddx Vista (Runcam Link) |
+| -------------------- | ---------------------: | ------------------------: |
+| вес                  |                45.8 гр |                     29 гр |
+| размеры              |        44×37.8×14.4 мм |               30×29×13 мм |
+| рабочая частота      |        5.725–5.850 ГГц |           5.725–5.850 ГГц |
+| мощность передатчика | FCC: <30dBm CE: <14dBm |    FCC: <30dBm CE: <14dBm |
+| каналы               |    8(25мбит)/3(50мбит) |       8(25мбит)/3(50мбит) |
+| антенные входы       |                      2 |                         1 |
+| запись dvr на vtx    |                  1080p |                       нет |
+| запись звука         |                   есть |                       нет |
+| входное напряжение   |              7.4-17.6v |                 7.4-26.4v |
