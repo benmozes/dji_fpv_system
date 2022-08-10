@@ -6,7 +6,7 @@
 
 * [Очки](system/goggles.md)
 * [Передатчики](system/vtx.md)
-* [Камеры](system/cameras.md)
+* [📹 Камеры](system/cameras.md)
 
 ## F.A.Q.
 
