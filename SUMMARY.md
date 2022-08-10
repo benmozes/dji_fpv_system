@@ -6,8 +6,8 @@
 
 * [Очки](system/goggles.md)
 * [Передатчики](system/vtx.md)
-* [📹 Камеры](system/cameras.md)
-* [⚙ Настройка](system/settings.md)
+* [Камеры](system/cameras.md)
+* [Настройка](system/settings.md)
 
 ## F.A.Q.
 
