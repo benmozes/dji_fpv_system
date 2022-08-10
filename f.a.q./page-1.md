@@ -1,2 +1,244 @@
-# Page 1
+# F.A.Q.
 
+### Можно ли использовать очки из DJI FPV Drone kit совместно с Air Unit/Caddx Vista?
+
+> да, можно
+
+### **Как далеко можно улететь?**
+
+> лимит около 13.3-13.4 км.
+
+### **Как включить режим 50Мбит?**
+
+> 1. прошить очки и передатчик на прошивку выше v01.00.06.00
+> 2.  обязательно переключить канал на какой-то из 1-3 (на CH8 public 50Мбит не работает)
+>
+>     <img src="https://djifpv.ru/FAQ/pics/50mbps.png?raw=true" alt="50mbps" data-size="original">
+>
+>     <img src="https://djifpv.ru/FAQ/pics/50mbps.jpg?raw=true" alt="50mbps" data-size="original">
+
+**Есть засветы по углам на стоковой маске, как быть**
+
+> Купить новую:
+>
+> * [такую](https://aliexpress.ru/item/4001197194149.html) (DJI);
+> * полный аналог маски от DJI, только в пакете [iFlight](https://aliexpress.ru/item/1005002481581483.html), часто дешевле DJI, но не уступает по качеству;
+> * или [такую](https://aliexpress.ru/item/4001160996689.html);
+> * или напечатать [проставки](https://www.thingiverse.com/thing:3840374) (но вариант не очень удобный).
+
+**FCC hack / как включить максимальную мощность**
+
+> * **Важно**: необходимо соблюсти главное условие:
+>   * во время хака очков, должен быть выключен юнит
+>   * во время хака передатчика, должны быть выключены очки
+>   * если создаёте файлы самостоятельно, проверяйте корректность расширения:
+>     * Win: проводник → Вид → Параметры → Вид → деактивировать пункт ☐_“Скрывать расширения для зарегистрированных типов файлов”_
+>     * MacOS: Finder → Настройки → Дополнения → активировать пункт ☑Показывать все расширения имен файлов
+> * Очки:
+>   * **если достаточно 700mW - можно ничего не делать;**
+>   * если необходимо увеличение мощности:
+>   * создать файл _naco\_pwr.txt_ с текстом _“pwr\_1”_ или _“pwr\_2”_ без кавычек (pwr\_1 = 1000mW, pwr\_2 = 1200mW и 1000mW) или [скачать](https://t.me/djifpvrus/40673);
+>   * скопировать файл naco\_pwr.txt на SD карту очков;
+>   * перезагрузить очки (выключить, включить, дождаться загрузки).
+> * Air Unit/Caddx Vista:
+>   * создать файл _naco.txt_ с текстом _“1”_ (без кавычек) или [скачать](https://t.me/djifpvrus/40672);
+>   * Скопировать файл _naco.txt_ на SD Air Unit’а или напрямую на Caddx Vista (да, в Vista нет SD карты, но она отлично определяется как съёмный диск);
+>   * перезагрузить передатчик (выключить, включить).
+>
+> _Оперативно определить успешность хака можно по кол-ву каналов в 25Мбит - каналов должно быть 8 (4 в 50Мбит, соответственно)._
+>
+> Хранить файлы на девайсах после процедуры необязательно.
+>
+> В случае, если после обновления прошивки очков и видеомодуля FCC режим не активен, повторить процедуры;
+>
+> Если запутались в файлах и сомневаетесь, копируйте оба, в очки и видеомодуль.
+>
+> ***
+>
+> Если необходимо включить CE mode, достаточно исправить цифру с 1 на 3 в файле naco.txt на передатчике:
+>
+> * 1 – FCC mode for US, 8 Channels
+> * 2 – FCC mode for Canada 4 Channels
+> * 3 – HK CE 4 Channels
+> * 4 – CN SRRC 4 Channels
+> * 5 – JP Japan 3 Channels
+> * 6 – KR Korea 4 Channels
+> * 7 – BR Brazil 4 Channels
+> * 8 – FR CCA 4 Channels
+
+**Кастом OSD и варнинги**
+
+> Есть, вот такие:
+>
+> * Betaflight:
+>   *   Активировать [порт](https://raw.githubusercontent.com/benmozes/djifpvrus/master/FAQ/pics/betaports.jpg) на который припаяли RX и TX;
+>
+>       <img src="https://djifpv.ru/FAQ/pics/betaports.jpg?raw=true" alt="50mbps" data-size="original">
+>   *   Включить [OSD](https://raw.githubusercontent.com/benmozes/djifpvrus/master/FAQ/pics/betaOSD.jpg).
+>
+>       <img src="https://djifpv.ru/FAQ/pics/betaOSD.jpg?raw=true" alt="50mbps" data-size="original">
+> * KiSS:
+>   *   Выбрать в [Serial configuration](https://raw.githubusercontent.com/benmozes/djifpvrus/master/FAQ/pics/kiss.png) DJI-MSP на нужном порту.
+>
+>       <img src="https://djifpv.ru/FAQ/pics/kiss.png?raw=true" alt="50mbps" data-size="original">
+> * Не забудьте включить в настройках очков custom OSD:
+>   * settings
+>   * display
+>   * custom OSD - on
+>
+> ****
+>
+> ****
+>
+> **Что умеет показывать Betaflight OSD до патчей**
+
+### **Что умеет показывать Betaflight OSD до патчей**
+
+|                              | по состоянию на август 2020        |
+| ---------------------------- | ---------------------------------- |
+| ~~Adjustment range~~         | GPS stats                          |
+| Altitude                     | GPS speed                          |
+| Angle: pitch                 | Home direction                     |
+| Angle: roll                  | Home distance                      |
+| ~~Anti gravity~~             | ~~Link quality~~                   |
+| ~~Artifical horizon~~        | ~~Motor diagnostics~~              |
+| Artifical horizon sidebars   | ~~Numerical heading~~              |
+| Battery average cell voltage | Numercial vario                    |
+| Battery current draw         | PID pitch                          |
+| Battery current mAh drawn    | PID roll                           |
+| ~~Battery efficiency~~       | PID yaw                            |
+| Battery usage                | Power                              |
+| Battery voltage              | ~~Profile: OSD profile name~~      |
+| ~~Blackbox log status~~      | Profile: PID and rate              |
+| ~~Camera frame~~             | ~~Profile: PID profile name~~      |
+| ~~Compass bar~~              | ~~Profile: PID rate profile name~~ |
+| ~~Core temperature~~         | ~~RC Channels~~                    |
+| Craft name                   | ~~RSSI dBm value~~                 |
+| Crosshairs                   | RSSI value                         |
+| ~~Debug~~                    | RTC date and time                  |
+| Disarmed                     | ~~Stick overlay left~~             |
+| ~~ESC RPM~~                  | ~~Stick overlay right~~            |
+| ~~ESC RPM frequency~~        | ~~Throttle position~~              |
+| ESC Temperature              | ~~Timer 1~~                        |
+| ~~Flight distance~~          | ~~Timer 2~~                        |
+| ~~Flip after crash arrow~~   | ~~Timer: remaining time estimate~~ |
+| Fly mode                     | ~~VTX channel~~                    |
+| ~~G force~~                  | ~~Warning~~                        |
+| GPS latitude                 | ~~Display name~~                   |
+| GPS longtitude               |                                    |
+
+### **Непонятные координаты в OSD, как починить**
+
+> Если на OSD вот такие координаты, что не хватает последней цифры (должно быть 7 знаков после точки), то в этой координате надо после точки добавить ноль, и после этого вбивать в гугл. Иначе может показать в стороне на десятки километров.
+>
+> <img src="https://djifpv.ru/FAQ/pics/badOSD.png?raw=true" alt="badOSD" data-size="original">
+
+### **Не работает кастом OSD**
+
+> RX\&TX на нужном месте, в настройках всё выставлено правильно, всё перепроверил **(3 раза, крайне внимательно)**
+>
+> Баг точно встречался на Vista, когда прошивали модуль с включёнными очками. Возможно, работает и для Air Unit.
+>
+> **На некоторых полётниках (mamba f722 mini, например) передатчик некорректно работает на конкретных UART, попробуйте подключить к другому.**
+>
+> _если вы столкнулись с такой проблемой, напишите пожалуйста в чате название полётника, UART на котором передатчик работал/работает некорректно, составим список и внесём сюда._
+>
+> Если вы провели downgrade\&upgrade прошивки с выключенными очками, проверили все UART, а custom OSD по-прежнему не работает - может помочь редкий кейс  Все приведённые выше манипуляции вы проводите на свой страх и риск!
+
+### **Выпадает кабель питания из очков, что делать**
+
+> Рандомный случай, у кого-то держится отлично, у кого-то вываливается, вариантов пофиксить несколько:
+>
+> * Закрепить кабель на [стяжку](https://t.me/djifpvrus/11332);
+> * Напечатать:
+>   * с держалкой;
+>   * Или [держалку](https://www.thingiverse.com/thing:4170116);
+
+### **Надо ли менять стоковые антенны**
+
+> Не обязательно, **вообще не обязательно -** [13](https://t.me/djifpvrus/19040) - [14](https://t.me/djifpvrus/19054) км пруфы, менять стоит только в погоне за long range или компактностью (ну или просто “потому что могу”).
+
+### **Какой разъём должен быть у антенн для очков**
+
+> RP-SMA.
+
+### **На что заменить стоковые антенны**
+
+> * Компактность, лучше приём - [TrueRC Singularity Stubby](https://www.hobbyrc.co.uk/truerc-singularity-58-stubby-for-dji-4-pack-lhcp) (LHCP);
+> * Лучший приём на long range - [TrueRC X-AIR](https://www.hobbyrc.co.uk/truerc-x-air-58ghz-antenna-for-dji-lhcp) (LHCP);
+> * Компактность, универсальность, \~такой же приём, чуть получше пробивная способность [Lumenier AXII HD](https://aliexpress.ru/item/1005001350404197.html), можно комплект со стабби;
+> * Компактность, универсальность, \~такой же приём, чуть получше пробивная способность [iFlight Crystal HD Patch](https://shop.iflight-rc.com/index.php?route=product/product\&product\_id=1384), можно комплект со стабби;
+> * двухдиапазонные стабби для V2 от [TtueRC](https://www.truerc.ca/shop/2-4ghz-2/transmitter-2-4ghz-2/singularity-dual-band-stubby).
+>
+> **Как правильно подключать патчи и омни антенны**
+>
+> в настоящий момент нет точной информации о режимах работы разных антенн на очках или единственно верном способе подключения, поэтому можете подключать по совету любого понравившегося вам человека.
+
+### **Можно ли летать на аналоге**
+
+> С помощью модификации - да.
+
+### **Какой аналог мод выбрать**
+
+> * [Fat Shark Receiver Module Adapter V3.0 PLUS](https://www.getfpv.com/analog-fat-shark-receiver-module-adapter-v3-0-plus-for-dji-digital-fpv-goggles.html) - крепится сбоку, не мешает установке патчей от Lumenier и IFlight;
+> * [iFlight 3D Printed Analog Conversion Kit](https://www.getfpv.com/iflight-3d-printed-analog-conversion-kit-for-dji-fpv-goggles-tbs-fusion.html) - замена фейсплейта, 3D печать, мешает установке патчей от Lumenier и iFlight;
+> * [British Drone Industries](https://www.getfpv.com/bdi-digital-adapter-analog-adapter-for-dji-hd-fpv-goggles.html) - замена фейсплейта, “дорого, богато”, мешает установке патчей от Lumenier и iFlight.
+
+### **Можно ли передавать видео из очков**
+
+> * с нюансами (не пишется DVR на очки и нет клиентов для iOS девайсов) - **да**, инструкция на отдельной [странице](https://djifpv.ru/video\_out/);
+> * полноценно для V1 пока только с помощью [аксессуара](https://www.dji.com/ru/smart-controller);
+> * полноценно для V2 с помощью [аксессуара](https://www.dji.com/ru/smart-controller) или **только видео с DJI drone** на телефон;
+
+### **Как передать видео на вторые очки**
+
+> С помощью [audience mode](https://youtu.be/RZdYvuttQuA) (работает только в режиме 25 Мбит)
+
+### **В очках есть jack 3.5, можно ли подключить наушники и слушать live audio во время полёта**
+
+> Live audio передаётся с DJI drone на v2 очки. DVR так же пишется со звуком. Звук передается в случае включения опции Audio Recording в меню очков.
+>
+> <img src="https://djifpv.ru/FAQ/pics/sound.jpg?raw=true" alt="sound" data-size="original">
+>
+> ***
+>
+> Для v1 очков и v2 + dji air unit/caddx vista - по-прежнему недоступно.
+
+### **Хочу заменить стоковую резинку, что выбрать**
+
+> Что угодно. Вероятно, понадобится напечатать [проушины](https://www.thingiverse.com/thing:3952410) или распилить стоковые (вот [так](https://t.me/djifpvrus/17275)). Возможные варианты резинок на любой вкус и кошелёк:
+>
+> * Без центральной резинки на макушке:
+>   * [Ethix goggle strap HD](https://www.team-blacksheep.com/products/prod:ethix\_gs\_hd\_bl) (петли на кнопке, не надо пилить или менять проушины);
+>   * [Ethix goggle strap V3](https://aliexpress.ru/item/4001226153194.html) (силиконовая пупырка в отсеке для батареи);
+>   * [Ethix goggle strap V2](https://aliexpress.ru/item/4000052107567.html);
+>   * [iFlight Adjustable FPV Goggles Headband](https://www.aliexpress.com/item/1005001304707433.html) (с проушинами в комплекте!);
+> * С центральной резинкой (как в стоке):
+>   * [Adjustable Head Strap](https://www.aliexpress.com/item/4000830155742.html);
+> * 3$ на резинки 40/25мм + 1.5$ на фурнитуру + швейная машинка (или 2$ заплатить в ателье).
+
+### **Где купить мягкую сумку для очков**
+
+> Стоковой сумки нет в продаже, максимально похожий вариант: [Ethix goggles pouch](https://www.team-blacksheep.com/products/prod:ethix\_goggle\_pouch)
+
+### **Можно ли сделать угол обзора шире**
+
+> Можно поменять линзу, точно работает для [стандартной камеры](https://t.me/djifpvrus/98861), вероятно, работает для Caddx Nebula Pro, т.к. [одинаковые линзы](https://djifpv.ru/unit-vs-vista/) с DJI Camera: [RunCam RC18G](https://aliexpress.ru/item/4000007230138.html).
+>
+> * [видеоинструкция](https://youtu.be/GS9uhdzoNmA)
+> * [обзор](https://youtu.be/xbOct8rGkyc) от Oleg Stelmakh
+
+### **Как наложить на OSD телеметрию на видео**
+
+> 1. Записать лог телеметрии в пульте - [как настроить запись по арму](https://oscarliang.com/log-gps-coordinates-taranis/)
+> 2. Полученный лог закинуть в [конвертор](https://maxbl4.github.io/otx/index.html)
+>    1. OpenTx записывает все полёты за день в один файл, после парсинга выбрать нужный полёт
+>    2. Перейти на вкладку Export SRT, убрать галочки с лишних пунктов (например не стоит всем показывать координаты вашего дома) и нажать Export. Вы получите SRT файл, который можно назвать также как ваше видео и он автоматом откроется в плеере. При желании можно вшить субтитры в видео с помощью FFMPEG
+> 3. Если хотите красивое OSD, можно лог загруженный в пункте 2.1 экспортировать в CSV и этот файл передать в [DashWare](http://www.dashware.net/), но там требуется довольно нудная настройка
+
+### **Как исправить вылет на заставку DJI при слабом сигнале аналог мода**
+
+> Необходимо переключить из PAL в NTSC
+>
+> 1. PAL&#x20;
+> 2. NTSC&#x20;
