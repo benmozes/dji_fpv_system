@@ -15,6 +15,7 @@
   * [Батареи](system/aksessuary/batarei.md)
   * [Линзы с диоптриями](system/aksessuary/linzy-s-dioptriyami.md)
   * [Разное](system/aksessuary/raznoe.md)
+  * [Analog mode](system/aksessuary/analog-mode.md)
 * [FCC hack](system/fcc-hack.md)
 
 ## F.A.Q.
