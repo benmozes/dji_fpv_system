@@ -1,3 +1,7 @@
+---
+description: часто задаваемые вопросы
+---
+
 # F.A.Q.
 
 ### Можно ли использовать очки из DJI FPV Drone kit совместно с Air Unit/Caddx Vista?
@@ -19,11 +23,11 @@
 
 ### **Есть засветы по углам на стоковой маске, как быть?**
 
-Купить [новую](../system/accessories/mask.md) или напечатать [проставки](https://www.thingiverse.com/thing:3840374)
+Купить [новую](../system/aksessuary/maski.md) или напечатать [проставки](https://www.thingiverse.com/thing:3840374)
 
 ### **Как увеличить мощность выше 25мВт**&#x20;
 
-Сделать [FCC Hack](../system/fcc\_hack.md)
+Сделать [FCC Hack](../system/fcc-hack.md)
 
 ### **Как включить кастом OSD?**
 
