@@ -2,7 +2,7 @@
 description: Начальная настройка цифровой системы DJI FPV System
 ---
 
-# ⚙ Настройка
+# Настройка
 
 **Оригинал:** [How Setup DJI FPV System for the First Time](https://oscarliang.com/dji-fpv-system-setup/)
 

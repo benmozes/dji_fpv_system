@@ -25,7 +25,7 @@
 
 Сделать [FCC Hack](../system/fcc-hack.md)
 
-### **Как включить кастом OSD и варнинги?**
+### **Как включить кастом OSD?**
 
 #### Betaflight
 
@@ -45,12 +45,12 @@
 
 ![](https://djifpv.ru/FAQ/pics/kiss.png?raw=true)
 
-* Не забудьте включить в настройках очков custom OSD:
+* Не забудьте включить в настройках **очков** custom OSD:
   * settings
   * display
   * custom OSD - on
 
-### **Что умеет показывать Betaflight OSD до патчей?**
+### **Что есть в Betaflight OSD до патчей?**
 
 |                              | по состоянию на август 2020        |
 | ---------------------------- | ---------------------------------- |
@@ -126,9 +126,7 @@
 
 ### **Какой аналог мод выбрать**
 
-> * [Fat Shark Receiver Module Adapter V3.0 PLUS](https://www.getfpv.com/analog-fat-shark-receiver-module-adapter-v3-0-plus-for-dji-digital-fpv-goggles.html) - крепится сбоку, не мешает установке патчей от Lumenier и IFlight;
-> * [iFlight 3D Printed Analog Conversion Kit](https://www.getfpv.com/iflight-3d-printed-analog-conversion-kit-for-dji-fpv-goggles-tbs-fusion.html) - замена фейсплейта, 3D печать, мешает установке патчей от Lumenier и iFlight;
-> * [British Drone Industries](https://www.getfpv.com/bdi-digital-adapter-analog-adapter-for-dji-hd-fpv-goggles.html) - замена фейсплейта, “дорого, богато”, мешает установке патчей от Lumenier и iFlight.
+> * .
 
 ### **Можно ли передавать видео из очков?**
 
@@ -150,7 +148,7 @@
 >
 > Для v1 очков и v2 + dji air unit/caddx vista - по-прежнему недоступно.
 
-### **Где купить мягкую сумку для очков**
+### **Где купить мягкую сумку для очков?**
 
 > Стоковой сумки нет в продаже, максимально похожий вариант: [Ethix goggles pouch](https://www.team-blacksheep.com/products/prod:ethix\_goggle\_pouch)
 
@@ -171,7 +169,13 @@
 
 ### **Как исправить вылет на заставку DJI при слабом сигнале аналог мода?**
 
-> Необходимо переключить из PAL в NTSC
->
-> 1. PAL&#x20;
-> 2. NTSC&#x20;
+Необходимо переключить из PAL в NTSC
+
+{% embed url="https://t.me/djifpvrus/199861" %}
+PAL
+{% endembed %}
+
+{% embed url="https://t.me/djifpvrus/199864" %}
+NTSC
+{% endembed %}
+

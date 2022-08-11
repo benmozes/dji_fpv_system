@@ -18,6 +18,6 @@
   * [Разное](system/aksessuary/raznoe.md)
 * [FCC hack](system/fcc-hack.md)
 
-## F.A.Q.
+## Полезная информация <a href="#utility" id="utility"></a>
 
-* [F.A.Q.](f.a.q./page-1.md)
+* [F.A.Q.](utility/faq.md)
