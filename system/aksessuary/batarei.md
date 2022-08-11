@@ -8,4 +8,4 @@
 * 3s батарея - например [GNB 2000mah 3S](https://newbeedrone.com/collections/3s-batteries-new/products/gaoneng-gnb-2000mah-3s-11-1v-5c-lipo-battery-for-dji-goggles) или аналог;
 * самосбор Li-Ion 18650 3-4s1p
   * _вероятнее всего, на голове будет тяжело, вариант для кармана_
-* Li-Ion 2s 21700
+  * Li-Ion 2s 21700
