@@ -9,7 +9,7 @@
 * [Камеры](system/cameras.md)
 * [Настройка](system/settings.md)
 * [FCC hack](system/fcc-hack.md)
-* [Root](system/root.md)
+* [wtfos](system/wtfos.md)
 * [Аксессуары](system/aksessuary/README.md)
   * [Антенны](system/aksessuary/antenny.md)
   * [Резинки (стрэпы)](system/aksessuary/rezinki-strepy.md)
