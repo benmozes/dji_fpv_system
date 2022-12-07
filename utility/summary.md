@@ -1,5 +1,7 @@
 ---
 description: Краткая сводка по новому поколению
+cover: ../.gitbook/assets/new_era.jpg
+coverY: -281.6446402349486
 ---
 
 # Summary
