@@ -23,3 +23,4 @@
 
 * [F.A.Q.](utility/faq.md)
 * [Проблемы и решения](utility/troubleshooting.md)
+* [Summary](utility/summary.md)
