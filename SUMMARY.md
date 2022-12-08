@@ -7,6 +7,7 @@
 * [Очки](system/goggles.md)
 * [Передатчики](system/vtx.md)
 * [Камеры](system/cameras.md)
+* [Совместимость](system/compatibility.md)
 * [Настройка](system/settings.md)
 * [FCC hack](system/fcc-hack.md)
 * [wtfos](system/wtfos.md)
@@ -24,4 +25,3 @@
 * [F.A.Q.](utility/faq.md)
 * [Проблемы и решения](utility/troubleshooting.md)
 * [Summary](utility/summary.md)
-* [Совместимость](utility/compatibility.md)
