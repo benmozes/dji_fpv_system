@@ -24,4 +24,4 @@
 * [F.A.Q.](utility/faq.md)
 * [Проблемы и решения](utility/troubleshooting.md)
 * [Summary](utility/summary.md)
-* [Совмести](utility/sovmesti.md)
+* [Совместимость](utility/compatibility.md)
