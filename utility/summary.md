@@ -18,7 +18,7 @@ coverY: -281.6446402349486
   * DJI Goggles 2
   * DJI FPV Goggles v2 - не без косяков, каждый раз, переключаясь между O3 и первым поколением передатчиков слетает бинд
   * ~~FPV Goggles v1~~ - был слух что будет совместимость через wtfOS, но разраб это опроверг
-    * <img src="../.gitbook/assets/image (1).png" alt="" data-size="original">
+    * <img src="../.gitbook/assets/image.png" alt="" data-size="original">
 * DJI FPV Goggles V2
   * DJI FPV Drone (толстый)
   * DJI Avata
