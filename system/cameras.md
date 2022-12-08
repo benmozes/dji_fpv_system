@@ -108,7 +108,7 @@
 | размеры:      |                                    20.7 × 19 × 19 мм |
 | вес:          |                                                  n/a |
 
-![Caddx Air Unit micro camera](<../.gitbook/assets/CaddxFPVAirunit4\_1500x (1).jpg>)
+![Caddx Air Unit micro camera](../.gitbook/assets/CaddxFPVAirunit4\_1500x.jpg)
 
 #### Runcam Falcon nano
 
@@ -153,7 +153,7 @@
 | размеры:           |                        15.8 × 14 × 14 мм |
 | вес:               |                                    2.7 г |
 
-![Caddx Polar Nano Starlight](<../.gitbook/assets/polarnano1\_1500x (1).jpg>)
+![Caddx Polar Nano Starlight](../.gitbook/assets/polarnano1\_1500x.jpg)
 
 #### Foxeer Apollo
 
