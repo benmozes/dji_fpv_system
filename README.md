@@ -18,5 +18,5 @@ coverY: -808.6153846153846
   * [Caddx vista (Runcam Link)](system/vtx.md#caddx-vista-runcam-link)
 
 {% hint style="warning" %}
-Если вас интересует DJI FPV Drone, к сожалению, страница не про него. Попробуйте обратиться за помощью в [профильный чат](http://t.me/djidron).
+Если вас интересует DJI FPV Drone, к сожалению, страница не про него. Попробуйте обратиться за помощью в [профильный чат](https://t.me/dji\_fpv\_avata).
 {% endhint %}
