@@ -1,6 +1,6 @@
 # ☔ O3 air unit. Защита от влаги
 
-По информации канала [SHTARK FPV](https://t.me/shtarkfpv)
+По информации канала [SHTARK FPV](https://t.me/shtarkfpv/64)
 
 {% hint style="danger" %}
 Все манипуляции вы делаете на свой страх и риск, под личную ответственность
