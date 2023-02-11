@@ -30,5 +30,6 @@
 ## Полезная информация <a href="#utility" id="utility"></a>
 
 * [F.A.Q.](utility/faq.md)
-* [Проблемы и решения](utility/troubleshooting.md)
+* [Проблемы и решения](utility/troubleshooting/README.md)
+  * [☔ O3 air unit. Защита от влаги](utility/troubleshooting/coating.md)
 * [Summary](utility/summary.md)
