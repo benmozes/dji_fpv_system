@@ -6,7 +6,7 @@
 
 * [Первое поколение DJI HD FPV](system/first\_gen/README.md)
   * [Очки](system/first\_gen/goggles.md)
-  * [Камеры](system/first\_gen/cameras.md)
+  * [📹 Камеры](system/first\_gen/cameras.md)
   * [Передатчики](system/first\_gen/vtx.md)
   * [Настройка](system/first\_gen/settings.md)
   * [FCC hack](system/first\_gen/fcc-hack.md)
