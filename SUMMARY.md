@@ -5,10 +5,10 @@
 ## 🥽 DJI FPV System <a href="#system" id="system"></a>
 
 * [Первое поколение DJI HD FPV](system/first\_gen/README.md)
-  * [Настройка](system/first\_gen/settings.md)
   * [Очки](system/first\_gen/goggles.md)
   * [Камеры](system/first\_gen/cameras.md)
   * [Передатчики](system/first\_gen/vtx.md)
+  * [Настройка](system/first\_gen/settings.md)
   * [FCC hack](system/first\_gen/fcc-hack.md)
   * [wtfos](system/first\_gen/wtfos/README.md)
     * [Совместимость](system/first\_gen/wtfos/compatibility.md)

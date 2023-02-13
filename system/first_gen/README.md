@@ -1,3 +1,9 @@
 # Первое поколение DJI HD FPV
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td>Очки</td><td></td><td><a href="goggles.md">goggles.md</a></td><td><a href="../../.gitbook/assets/s-l1600.jpg">s-l1600.jpg</a></td></tr><tr><td></td><td></td><td></td><td><a href="cameras.md">cameras.md</a></td><td></td></tr><tr><td></td><td></td><td></td><td><a href="settings.md">settings.md</a></td><td></td></tr><tr><td></td><td></td><td></td><td><a href="fcc-hack.md">fcc-hack.md</a></td><td></td></tr><tr><td></td><td></td><td></td><td><a href="wtfos/">wtfos</a></td><td></td></tr><tr><td></td><td></td><td></td><td><a href="vtx.md">vtx.md</a></td><td></td></tr><tr><td></td><td></td><td></td><td><a href="aksessuary/">aksessuary</a></td><td></td></tr></tbody></table>
+* [Очки](goggles.md)
+* [Камеры](cameras.md)
+* [Передатчики](vtx.md)
+* [Настройка](settings.md)
+* [FCC hack](fcc-hack.md)
+* [WTF.OS](wtfos/)
+* [Аксессуары](aksessuary/)
