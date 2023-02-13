@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/dji-vs-caddx-round2-02-1200.jpg
+cover: ../../.gitbook/assets/dji-vs-caddx-round2-02-1200.jpg
 coverY: 102.46153846153847
 ---
 

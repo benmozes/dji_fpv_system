@@ -10,12 +10,16 @@ coverY: -808.6153846153846
 
 Здесь хранятся накопленные знания и пользовательский опыт использования DJI FPV System из [чата в telegram](https://t.me/djifpvrus):
 
+## Первое поколение
+
 * Очки:
-  * [DJI FPV Goggles](system/goggles.md#dji-fpv-goggles-v1)
-  * [DJI FPV Goggles v2](system/goggles.md#dji-fpv-goggles-v2)
+  * [DJI FPV Goggles](system/first\_gen/goggles.md#dji-fpv-goggles-v1)
+  * [DJI FPV Goggles v2](system/first\_gen/goggles.md#dji-fpv-goggles-v2)
 * Передатчики:
-  * [DJI Air Unit](system/vtx.md#air-unit)
-  * [Caddx vista (Runcam Link)](system/vtx.md#caddx-vista-runcam-link)
+  * [DJI Air Unit](system/first\_gen/vtx.md#air-unit)
+  * [Caddx vista (Runcam Link)](system/first\_gen/vtx.md#caddx-vista-runcam-link)
+
+## Второе поколение
 
 {% hint style="warning" %}
 Если вас интересует DJI FPV Drone, к сожалению, страница не про него. Попробуйте обратиться за помощью в [профильный чат](https://t.me/dji\_fpv\_avata).

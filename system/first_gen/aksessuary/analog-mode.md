@@ -9,5 +9,5 @@ description: варианты подключения аналогового пр
 * [British Drone Industries](https://www.getfpv.com/bdi-digital-adapter-analog-adapter-for-dji-hd-fpv-goggles.html) - замена фейсплейта, “дорогобогато”, мешает установке патчей от Lumenier и iFlight
 
 {% hint style="danger" %}
-Если очки при слабом уровне аналогового сигнала уходят в чёрный экран, необходимо [переключить режим камеры](../../utility/faq.md#kak-ispravit-vylet-na-zastavku-dji-pri-slabom-signale-analog-moda) с PAL на NTSC
+Если очки при слабом уровне аналогового сигнала уходят в чёрный экран, необходимо [переключить режим камеры](../../../utility/faq.md#kak-ispravit-vylet-na-zastavku-dji-pri-slabom-signale-analog-moda) с PAL на NTSC
 {% endhint %}

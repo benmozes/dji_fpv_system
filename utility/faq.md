@@ -23,11 +23,11 @@ description: часто задаваемые вопросы
 
 ### **Есть засветы по углам на стоковой маске, как быть?**
 
-Купить [новую](../system/aksessuary/maski.md) или напечатать [проставки](https://www.thingiverse.com/thing:3840374)
+Купить [новую](../system/first\_gen/aksessuary/maski.md) или напечатать [проставки](https://www.thingiverse.com/thing:3840374)
 
 ### **Как увеличить мощность выше 25мВт**&#x20;
 
-Сделать [FCC Hack](../system/fcc-hack.md)
+Сделать [FCC Hack](../system/first\_gen/fcc-hack.md)
 
 ### **Как включить кастом OSD?**
 
